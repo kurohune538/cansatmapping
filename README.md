@@ -1,6 +1,6 @@
 # cansatmapping
 
-# How to install
+## How to install
 - node.jsをまずインストールする(http://nodejs.org/)
 
 - このrepositoryをcloneまたはdownloadし、任意のディレクトリに入れる。
