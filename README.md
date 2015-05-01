@@ -8,3 +8,4 @@
 - shellでそのディレクトリまで移動しnpm installを実行
 
 - 終わったら同じディレクトリでnode server.jsを実行しブラウザでlocalhost:8080にアクセスすると確認できます。
+
