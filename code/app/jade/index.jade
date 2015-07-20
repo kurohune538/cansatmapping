@@ -1,0 +1,17 @@
+extends ./_layouts/_base
+
+block title
+  title cansatmapping
+block meta
+  meta(name="description", content="description")
+block link
+  // build:css({.tmp,app}) styles/main.min.css
+  link(rel='stylesheet' href='styles/main.css')
+  // endbuild
+
+block body
+  body
+    #cesiumContainer
+    script.
+      var viewer = new Cesium.Viewer('cesiumContainer');
+      
