@@ -1,0 +1,26 @@
+[
+    {
+        "id": "document",
+        "name": "cansatmapping",
+        "version": "1.0"
+    },
+    {
+        "id": "1",
+        "name": "名前",
+        "description": "説明",
+        "billboard": {
+            "horizontalOrigin": "CENTER",
+            "image": "http://cansatmapping.com/code/dist/images/favicon.png",
+            "scale": 0.35,
+            "show": "true",
+            "verticalOrigin": "CENTER"
+        },
+        "position": {
+            "cartographicDegrees": [
+                130.266907,
+                33.284693,
+                2200
+            ]
+        }
+    }
+]

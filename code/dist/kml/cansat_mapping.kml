@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>cansat_mapping_realtime</name>
+	<ScreenOverlay id="khScreenOverlay756">
+		<name>Simple crosshairs</name>
+		<description>CANSAT MAPPING</description>
+		<Icon>
+			<href>https://lh4.googleusercontent.com/-KNvvy1iiUqo/UwS7R_Fme-I/AAAAAAAAC7c/lrcytyeM9Q8/w183-h72-no/banner.png</href>
+		</Icon>
+		<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+		<screenXY x="0.01" y="0.04" xunits="fraction" yunits="fraction"/>
+		<rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		<size x="200" y="80" xunits="pixels" yunits="pixels"/>
+	</ScreenOverlay>
+	<NetworkLink>
+		<name>networklink</name>
+		<Link>
+			<href>http://www.photon01.co.jp/~cansat/posts_20140729.php</href>
+		</Link>
+	</NetworkLink>
+</Document>
+</kml>
