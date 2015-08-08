@@ -1,11 +1,13 @@
 <?php
 header("Content-Type:text/html; charset=UTF-8");
 
+require_once('config.php');
+
 try {
     $dbh = new PDO(
-        'mysql:host=ns.archiving.jp;dbname=_cansat;charset=utf8',
-        'phpmyadmin',
-        '3nZXPiFC4pNhscv4',
+        'mysql:host='.HOST_NAME.';dbname='.DB_NAME.';charset=utf8',
+        USER_NAME,
+        PASSWORD,
         array(
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
             PDO::ATTR_EMULATE_PREPARES => false,
@@ -13,14 +15,9 @@ try {
     );
 
 } catch (PDOException $e) {
-		echo "string2";
-
     $error = $e->getMessage();
-    echo $error;
+    echo 'Could not connect: ' .$error;
 }
-
-
-
 
 // $fileName = 'cansatmapping';
 // $filePath = $fileName . 'kml';
