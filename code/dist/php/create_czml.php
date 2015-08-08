@@ -30,7 +30,7 @@ while($post = $stmt -> fetch(PDO::FETCH_ASSOC)) {
         "lat"=>$post['latitude'],
         "lon"=>$post['longitude'],
         "team_photo"=>$post['team_photo'],
-        "team_name"=>$post['teame_name'],
+        "team_name"=>$post['team_name'],
         "cansat_photo"=>$post['cansat_photo'],
         "cansat_name"=>$post['cansat_name'],
         "launch_date"=>$post['launch_date'],
@@ -59,41 +59,40 @@ array_push($jsonArray, $documentArray);
 
 if (!empty($postsArray)) {
     foreach ($postsArray as $post) {
+        
+        //descriptionの中身をつくりたいけどなんかうまくいかない
+        // $description = htmlspecialchars('<div>');
+        // $description .= htmlspecialchars('<p>'.$post['cansat_name'].'</p>');
+        // $description .= htmlspecialchars('</div>');
 
+        $description = "ディスクリプション";
+        
         $billboard = array(
-        "horizontalOrigin" => "CENTER",
-        "image" => $baseUrl .'assets/img/small/'. $post['team_photo'],
-        "scale" => 0.35,
-        "show" => "true",
-        "verticalOrigin" => "CENTER"
-    );
+            "horizontalOrigin" => "CENTER",
+            "image" => $baseUrl .'assets/img/small/'. $post['team_photo'],
+            "scale" => 0.35,
+            "show" => "true",
+            "verticalOrigin" => "CENTER"
+        );
 
-    $point = [
-        $post['lon'],
-        $post['lat'],
-        2200
-    ];
+        $point = [
+            $post['lon'],
+            $post['lat'],
+            2200
+        ];
 
-    $position = array(
-        "cartographicDegrees" => $point,
-    );
+        $position = array(
+            "cartographicDegrees" => $point,
+        );
 
-    // $polyline = array(
-    //     "width" => 1,
-    //     "positions" => $polylinePosition,
-    //     "material" => $polyLineMaterial,
-    //     "positions" => $polylinePosition,
-    // );
-
-    $placemarkArray = array(
-        "id" => $post['id'],
-        "name" => "名前",
-        "description" => "説明",
-        "billboard" => $billboard,
-        "position" => $position,
-    );
-
-    array_push($jsonArray, $placemarkArray);
+        $placemarkArray = array(
+            "id" => $post['id'],
+            "name" => $post['team_name'],
+            "description" => $description,
+            "billboard" => $billboard,
+            "position" => $position,
+        );
+        array_push($jsonArray, $placemarkArray);
     }
 }
 
