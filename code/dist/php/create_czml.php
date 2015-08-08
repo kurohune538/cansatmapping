@@ -62,7 +62,7 @@ if (!empty($postsArray)) {
 
         $billboard = array(
         "horizontalOrigin" => "CENTER",
-        "image" => "http://cansat.archiving.jp/staging/images/favicon.png",
+        "image" => $baseUrl .'assets/img/small/'. $post['team_photo'],
         "scale" => 0.35,
         "show" => "true",
         "verticalOrigin" => "CENTER"
