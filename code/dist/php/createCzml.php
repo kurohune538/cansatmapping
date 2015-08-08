@@ -1,66 +1,84 @@
 <?php
+header("Content-Type:text/html; charset=UTF-8");
 
-//ローカルのテスト用
-$link = mysql_connect('http://ns.photon01.co.jp/~cansat', 'kazuya', 'osqeq5BqLpqycXqV');
-if (!$link) {
-    die('error'.mysql_error());
+try {
+    $dbh = new PDO(
+        'mysql:host=ns.archiving.jp;dbname=_cansat;charset=utf8',
+        'phpmyadmin',
+        '3nZXPiFC4pNhscv4',
+        array(
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_EMULATE_PREPARES => false,
+        )
+    );
+
+} catch (PDOException $e) {
+		echo "string2";
+
+    $error = $e->getMessage();
+    echo $error;
 }
 
 
 
-$fileName = 'cansatmapping';
-$filePath = $fileName . 'kml';
 
-$jsonArray = array();
+// $fileName = 'cansatmapping';
+// $filePath = $fileName . 'kml';
 
-$documentArray = array(
-    "id"=>"document",
-    "name"=>$fileName,
-    "version"=>"1.0",
-);
+// $jsonArray = array();
 
-array_push($jsonArray, $documentArray);
+// $documentArray = array(
+//     "id"=>"document",
+//     "name"=>$fileName,
+//     "version"=>"1.0",
+// );
 
-
-$billboard = array(
-	"horizontalOrigin" => "CENTER",
-	"image" => "http://cansatmapping.com/code/dist/images/favicon.png",
-      "scale" => 0.35,
-      "show" => "true",
-      "verticalOrigin" => "CENTER"
-);
-
-$point = [
-	130.266907,
-  33.284693,
-	2200
-];
-
-$position = array(
-	"cartographicDegrees" => $point,
-);
-
-$polyline = array(
-	"width" => 1,
-	"positions" => $polylinePosition,
-	"material" => $polyLineMaterial,
-	"positions" => $polylinePosition,
-);
-
-$placemarkArray = array(
-	"id" => "1",
-	"name" => "名前",
-	"description" => "説明",
-	"billboard" => $billboard,
-	"position" => $position,
-);
-
-array_push($jsonArray, $placemarkArray);
+// array_push($jsonArray, $documentArray);
 
 
+// $billboard = array(
+// 	"horizontalOrigin" => "CENTER",
+// 	"image" => "http://cansatmapping.com/code/dist/images/favicon.png",
+//       "scale" => 0.35,
+//       "show" => "true",
+//       "verticalOrigin" => "CENTER"
+// );
 
-$json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-var_dump ($json);
+// $point = [
+// 	130.266907,
+//   33.284693,
+// 	2200
+// ];
 
-file_put_contents('../czml/' . $fileName . '.czml', $json);
+// $position = array(
+// 	"cartographicDegrees" => $point,
+// );
+
+// $polyline = array(
+// 	"width" => 1,
+// 	"positions" => $polylinePosition,
+// 	"material" => $polyLineMaterial,
+// 	"positions" => $polylinePosition,
+// );
+
+// $placemarkArray = array(
+// 	"id" => "1",
+// 	"name" => "名前",
+// 	"description" => "説明",
+// 	"billboard" => $billboard,
+// 	"position" => $position,
+// );
+
+// array_push($jsonArray, $placemarkArray);
+
+
+
+// $json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
+// var_dump ($json);
+
+// file_put_contents('../czml/' . $fileName . '.czml', $json);
 ?>
+
+
+
+
