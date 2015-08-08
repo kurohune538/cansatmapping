@@ -22,7 +22,7 @@ setTimeout('loadCzml()', 1000);
 
 loadCzml = function() {
   var promise;
-  promise = Cesium.CzmlDataSource.load('./czml/test.czml');
+  promise = Cesium.CzmlDataSource.load('./czml/cansatmapping.czml');
   promise.then(function(dataSource) {
     viewer.dataSources.add(dataSource);
   }).otherwise(function(error) {
