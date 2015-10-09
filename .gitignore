@@ -1,0 +1,14 @@
+# OSX
+#
+.DS_Store
+
+
+# bower
+#
+code/dist/bower_components/
+
+# node.js
+#
+code/node_modules/
+npm-debug.log
+

@@ -1,0 +1,19 @@
+{
+  "name": "cansatmapping",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kurohune538/cansatmapping",
+  "authors": [
+    "kurohune538 <kurohune538@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cesiumjs": "~1.10.0"
+  }
+}
