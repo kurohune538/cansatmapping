@@ -67,6 +67,17 @@ gulp.task('bs-reload', function () {
     browserSync.reload();
 });
 
+<<<<<<< HEAD
 
+=======
+gulp.task('serve', function(){
+  browserSync({
+    notify: false,
+    server: {
+      baseDir: "dist"
+    }
+  });
+});
+>>>>>>> eb91f7c19bfcedb7018461c9aa9c7297f3a43f60
 
 gulp.task('default', ['watch', 'coffee', 'jade', 'scss', 'serve']);
