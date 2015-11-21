@@ -1,1071 +1,1071 @@
 [
-    {
-        "id": "document",
-        "name": "cansatmapping",
-        "version": "1.0"
+  {
+    "id": "document",
+    "name": "cansatmapping",
+    "version": "1.0"
+  },
+  {
+    "id": "82",
+    "name": "SNUSAT",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20141120103853_546d462dbc6db4.82515963.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
     },
-    {
-        "id": "82",
-        "name": "SNUSAT",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20141120103853_546d462dbc6db4.82515963.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "126.95190530000002",
-                "37.459882",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "27",
-        "name": "Tokyo University of Science Kimura Lab-Canal7",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140204170717_52f09fb5621c98.40382875.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.9075845407226",
-                "35.91797626822569",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "68",
-        "name": "静岡大学　SATT",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140831115849_54028f6959da67.06586987.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.71662200290223",
-                "34.72539554014138",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "66",
-        "name": "Nakatsugawa-tech. High school  ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140731201938_53da264a172767.18275750.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.44",
-                "35.49",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "13",
-        "name": "TMU*CAN",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20131031105732_5271b90c008e46.67063481.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.36573469999996",
-                "35.6612217",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "20",
-        "name": "CLTP3 Team",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20131123220517_5290a80d3050f1.30967955.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.36573469999996",
-                "35.6612217",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "28",
-        "name": "TBY",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.3654757645569",
-                "35.661440178286185",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "25",
-        "name": "Keio University Team WolveZ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140204161525_52f0938d6151e2.92888799.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.65118740000003",
-                "35.5524008",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "22",
-        "name": "UVic ECOSat",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140114065833_52d46189cbd6f0.26933172.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "-123.31040698754731",
-                "48.461201040992265",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "21",
-        "name": "All Nations University - Intelligent Space Systems",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20131216221508_52aefcdc612898.50112654.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "-0.26245",
-                "6.087481",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "18",
-        "name": "TMU W",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20131113133448_52830168eedde1.85586005.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.36573469999996",
-                "35.6612217",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "19",
-        "name": "CLTP2",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20131115122149_5285934d2fbfc6.55256111.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "140.0601792",
-                "35.7233895",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "30",
-        "name": " Tokyo Institute of Technology  -  N-MOS'S",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205090622_52f1807ed1daa0.49737061.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.68395880000003",
-                "35.6043886",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "32",
-        "name": "Kyushu Institute of Technology  - KINGS",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205093258_52f186ba2303e4.64241104.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "130.84014986059424",
-                "33.89449613196218",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "35",
-        "name": "The University of Electro-Communications - Aoi",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205095219_52f18b43496626.18628450.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.54407390000006",
-                "35.6560923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "38",
-        "name": "Tokyo Institute of Technology - TITANIKU",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205102739_52f1938bdfe359.59893865.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.6841916871092",
-                "35.60456143699711",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "37",
-        "name": "UEC - Recon Corps UEC Branch",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205101126_52f18fbee00dc1.70805885.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.54407390000006",
-                "35.6560923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "39",
-        "name": "Tokyo Denki University Space Project",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205122745_52f1afb1df7e96.81485284.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.80658209791363",
-                "35.74794444258146",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "40",
-        "name": "Kyushu Institute of Technology -  KITCATS",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205123751_52f1b20fd85638.77369583.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "130.84009279015004",
-                "33.89469376329878",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "41",
-        "name": "Aichi University of Technology -  STELA I",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205124903_52f1b4af2fd039.89088261.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.1934518525768",
-                "34.83275437888604",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "42",
-        "name": "Aichi University of Technology -  STELA II",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205125723_52f1b6a3aace25.64453034.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.19352909999998",
-                "34.8324303",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "43",
-        "name": "The University of Tokyo - IKATOZ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205130726_52f1b8fe562817.63774117.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.76090538755795",
-                "35.71520025993421",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "44",
-        "name": "The University of Tokyo - Team Canopus",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205131932_52f1bbd4528b33.66142460.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.7608045368919",
-                "35.71520722873386",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "45",
-        "name": "TMG",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205134200_52f1c1189e00b7.38608381.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.3676153",
-                "35.6615608",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "54",
-        "name": "TMU - TM brothers",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205154545_52f1de19b82143.03852019.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.3665057328186",
-                "35.66152909095248",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "53",
-        "name": "Aichi Univ. of Technology - STELA I",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205145657_52f1d2a964e902.89725193.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.1934518525768",
-                "34.83275437888604",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "50",
-        "name": "Kyushu Institute of Technology - KINGS",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205143202_52f1ccd2d225c8.72567084.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "130.84014986059424",
-                "33.89449613196218",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "55",
-        "name": "TMU Family",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205155825_52f1e111e728d7.76256049.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.3665057328186",
-                "35.66152909095248",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "56",
-        "name": "Akita University - ASSP",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205161219_52f1e4532e6ff9.64452181.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "140.13325725693244",
-                "39.726466832072354",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "57",
-        "name": "The Univ. of Electro-Communications -  McKinley",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205165140_52f1ed8c69d4d3.32327964.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.54407390000006",
-                "35.6560923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "60",
-        "name": "The Univ. of Tokyo - NASU  ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205171828_52f1f3d4246035.12078598.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.76070154000024",
-                "35.71519154868457",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "59",
-        "name": "UEC - Tequila Sunrise",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205165624_52f1eea83f4750.24355754.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.54407390000006",
-                "35.6560923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "65",
-        "name": "CLTP4",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205182732_52f20404c05b90.32214418.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.76299169999993",
-                "35.7166429",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "64",
-        "name": "CLTP1",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205182235_52f202db9d4f16.21208883.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.76299169999993",
-                "35.7166429",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "69",
-        "name": "Programa para la Experimentación e Investigación A",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140921094314_541e1f220dd4e5.70352737.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "-97.4629119",
-                "20.5270592",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "70",
-        "name": " Tokyo University of Science Kimura Lab (So-seki)",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140926144606_5424fd9eae63a2.99786425.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.90906599999994",
-                "35.918066",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "71",
-        "name": "Hokkaido University of Science, Satori laboratory",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140927193603_5426931392eb32.64408149.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "141.24904790000005",
-                "43.1346923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "72",
-        "name": "Hokkaido University of Science, Satori laboratory",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "141.24904790000005",
-                "43.1346923",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "73",
-        "name": "芝浦衛星チーム(Shibaura Satellite Team)",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.65448059999994",
-                "35.9518514",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "74",
-        "name": "九州大学SATELLITE-Q",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "130.21849369999995",
-                "33.5957309",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "75",
-        "name": "KITCATS",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140929193745_542936799409b7.91491224.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "130.84011639339292",
-                "33.8925937923865",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "76",
-        "name": "SHIBAURA INSTITUTE of TECHNOROGY",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20140930042256_5429b19033aa38.34146554.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.79553499999997",
-                "35.660852",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "77",
-        "name": "KUT Rocket Project (KRP)",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "133.71973860000003",
-                "33.6205688",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "78",
-        "name": "Keio University Team Wolve'Z",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.6535692",
-                "35.5557595",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "79",
-        "name": "Keio University Team WolveZ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.6535692",
-                "35.5557595",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "80",
-        "name": "Keio University Team WolveZ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "139.6535692",
-                "35.5557595",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "81",
-        "name": "ARLISS2014_office",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "-119.13530555555556",
-                "40.86291666666667",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "83",
-        "name": "CanSat Veracruz",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "96.1037063598633",
-                "19.1390724182129",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "89",
-        "name": "ISSL",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20150116183547_54b8db737a17c0.79806820.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "-0.302058",
-                "6.109408",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "85",
-        "name": "三光",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20141126155150_54757886081619.16648069.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "128.3922952627929",
-                "36.14471820146745",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "86",
-        "name": "BlueWave",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20141126161434_54757dda34fe16.86992635.png",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "127.20773038037112",
-                "34.610162281027925",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "90",
-        "name": "TOYOTA Technical High School",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20150220141549_54e6c305ee2420.62061230.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.11893110000005",
-                "35.0219357",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "91",
-        "name": "TOYOTA Technical High School",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.119012",
-                "35.0219489",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "92",
-        "name": "TOYOTA Technical High School",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20150223140448_54eab4f0a24d25.10412216.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "137.11893110000005",
-                "35.0219357",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "93",
-        "name": "2nd Can-Sat ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "29.908156599999984",
-                "31.20896419999999",
-                2200
-            ]
-        }
-    },
-    {
-        "id": "94",
-        "name": "2nd Can-Sat ",
-        "description": "ディスクリプション",
-        "billboard": {
-            "horizontalOrigin": "CENTER",
-            "image": "http://cansat.archiving.jp/staging/assets/img/small/20150321195326_550d4da61b53d8.72729492.jpg",
-            "scale": 0.35,
-            "show": "true",
-            "verticalOrigin": "CENTER"
-        },
-        "position": {
-            "cartographicDegrees": [
-                "29.908156599999984",
-                "31.20896419999999",
-                2200
-            ]
-        }
+    "position": {
+      "cartographicDegrees": [
+        "126.95190530000002",
+        "37.459882",
+        2200
+      ]
     }
+  },
+  {
+    "id": "27",
+    "name": "Tokyo University of Science Kimura Lab-Canal7",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140204170717_52f09fb5621c98.40382875.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.9075845407226",
+        "35.91797626822569",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "68",
+    "name": "静岡大学　SATT",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140831115849_54028f6959da67.06586987.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.71662200290223",
+        "34.72539554014138",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "66",
+    "name": "Nakatsugawa-tech. High school  ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140731201938_53da264a172767.18275750.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.44",
+        "35.49",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "13",
+    "name": "TMU*CAN",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20131031105732_5271b90c008e46.67063481.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.36573469999996",
+        "35.6612217",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "20",
+    "name": "CLTP3 Team",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20131123220517_5290a80d3050f1.30967955.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.36573469999996",
+        "35.6612217",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "28",
+    "name": "TBY",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.3654757645569",
+        "35.661440178286185",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "25",
+    "name": "Keio University Team WolveZ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140204161525_52f0938d6151e2.92888799.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.65118740000003",
+        "35.5524008",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "22",
+    "name": "UVic ECOSat",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140114065833_52d46189cbd6f0.26933172.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "-123.31040698754731",
+        "48.461201040992265",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "21",
+    "name": "All Nations University - Intelligent Space Systems",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20131216221508_52aefcdc612898.50112654.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "-0.26245",
+        "6.087481",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "18",
+    "name": "TMU W",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20131113133448_52830168eedde1.85586005.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.36573469999996",
+        "35.6612217",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "19",
+    "name": "CLTP2",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20131115122149_5285934d2fbfc6.55256111.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "140.0601792",
+        "35.7233895",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "30",
+    "name": " Tokyo Institute of Technology  -  N-MOS'S",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205090622_52f1807ed1daa0.49737061.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.68395880000003",
+        "35.6043886",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "32",
+    "name": "Kyushu Institute of Technology  - KINGS",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205093258_52f186ba2303e4.64241104.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "130.84014986059424",
+        "33.89449613196218",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "35",
+    "name": "The University of Electro-Communications - Aoi",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205095219_52f18b43496626.18628450.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.54407390000006",
+        "35.6560923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "38",
+    "name": "Tokyo Institute of Technology - TITANIKU",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205102739_52f1938bdfe359.59893865.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.6841916871092",
+        "35.60456143699711",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "37",
+    "name": "UEC - Recon Corps UEC Branch",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205101126_52f18fbee00dc1.70805885.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.54407390000006",
+        "35.6560923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "39",
+    "name": "Tokyo Denki University Space Project",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205122745_52f1afb1df7e96.81485284.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.80658209791363",
+        "35.74794444258146",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "40",
+    "name": "Kyushu Institute of Technology -  KITCATS",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205123751_52f1b20fd85638.77369583.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "130.84009279015004",
+        "33.89469376329878",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "41",
+    "name": "Aichi University of Technology -  STELA I",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205124903_52f1b4af2fd039.89088261.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.1934518525768",
+        "34.83275437888604",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "42",
+    "name": "Aichi University of Technology -  STELA II",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205125723_52f1b6a3aace25.64453034.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.19352909999998",
+        "34.8324303",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "43",
+    "name": "The University of Tokyo - IKATOZ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205130726_52f1b8fe562817.63774117.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.76090538755795",
+        "35.71520025993421",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "44",
+    "name": "The University of Tokyo - Team Canopus",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205131932_52f1bbd4528b33.66142460.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.7608045368919",
+        "35.71520722873386",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "45",
+    "name": "TMG",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205134200_52f1c1189e00b7.38608381.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.3676153",
+        "35.6615608",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "54",
+    "name": "TMU - TM brothers",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205154545_52f1de19b82143.03852019.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.3665057328186",
+        "35.66152909095248",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "53",
+    "name": "Aichi Univ. of Technology - STELA I",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205145657_52f1d2a964e902.89725193.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.1934518525768",
+        "34.83275437888604",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "50",
+    "name": "Kyushu Institute of Technology - KINGS",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205143202_52f1ccd2d225c8.72567084.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "130.84014986059424",
+        "33.89449613196218",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "55",
+    "name": "TMU Family",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205155825_52f1e111e728d7.76256049.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.3665057328186",
+        "35.66152909095248",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "56",
+    "name": "Akita University - ASSP",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205161219_52f1e4532e6ff9.64452181.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "140.13325725693244",
+        "39.726466832072354",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "57",
+    "name": "The Univ. of Electro-Communications -  McKinley",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205165140_52f1ed8c69d4d3.32327964.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.54407390000006",
+        "35.6560923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "60",
+    "name": "The Univ. of Tokyo - NASU  ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205171828_52f1f3d4246035.12078598.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.76070154000024",
+        "35.71519154868457",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "59",
+    "name": "UEC - Tequila Sunrise",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205165624_52f1eea83f4750.24355754.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.54407390000006",
+        "35.6560923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "65",
+    "name": "CLTP4",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205182732_52f20404c05b90.32214418.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.76299169999993",
+        "35.7166429",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "64",
+    "name": "CLTP1",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140205182235_52f202db9d4f16.21208883.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.76299169999993",
+        "35.7166429",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "69",
+    "name": "Programa para la Experimentación e Investigación A",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140921094314_541e1f220dd4e5.70352737.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "-97.4629119",
+        "20.5270592",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "70",
+    "name": " Tokyo University of Science Kimura Lab (So-seki)",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140926144606_5424fd9eae63a2.99786425.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.90906599999994",
+        "35.918066",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "71",
+    "name": "Hokkaido University of Science, Satori laboratory",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140927193603_5426931392eb32.64408149.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "141.24904790000005",
+        "43.1346923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "72",
+    "name": "Hokkaido University of Science, Satori laboratory",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "141.24904790000005",
+        "43.1346923",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "73",
+    "name": "芝浦衛星チーム(Shibaura Satellite Team)",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.65448059999994",
+        "35.9518514",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "74",
+    "name": "九州大学SATELLITE-Q",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "130.21849369999995",
+        "33.5957309",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "75",
+    "name": "KITCATS",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140929193745_542936799409b7.91491224.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "130.84011639339292",
+        "33.8925937923865",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "76",
+    "name": "SHIBAURA INSTITUTE of TECHNOROGY",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20140930042256_5429b19033aa38.34146554.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.79553499999997",
+        "35.660852",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "77",
+    "name": "KUT Rocket Project (KRP)",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "133.71973860000003",
+        "33.6205688",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "78",
+    "name": "Keio University Team Wolve'Z",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.6535692",
+        "35.5557595",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "79",
+    "name": "Keio University Team WolveZ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.6535692",
+        "35.5557595",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "80",
+    "name": "Keio University Team WolveZ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "139.6535692",
+        "35.5557595",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "81",
+    "name": "ARLISS2014_office",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "-119.13530555555556",
+        "40.86291666666667",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "83",
+    "name": "CanSat Veracruz",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "96.1037063598633",
+        "19.1390724182129",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "89",
+    "name": "ISSL",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20150116183547_54b8db737a17c0.79806820.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "-0.302058",
+        "6.109408",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "85",
+    "name": "三光",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20141126155150_54757886081619.16648069.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "128.3922952627929",
+        "36.14471820146745",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "86",
+    "name": "BlueWave",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20141126161434_54757dda34fe16.86992635.png",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "127.20773038037112",
+        "34.610162281027925",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "90",
+    "name": "TOYOTA Technical High School",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20150220141549_54e6c305ee2420.62061230.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.11893110000005",
+        "35.0219357",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "91",
+    "name": "TOYOTA Technical High School",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.119012",
+        "35.0219489",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "92",
+    "name": "TOYOTA Technical High School",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20150223140448_54eab4f0a24d25.10412216.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "137.11893110000005",
+        "35.0219357",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "93",
+    "name": "2nd Can-Sat ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "29.908156599999984",
+        "31.20896419999999",
+        2200
+      ]
+    }
+  },
+  {
+    "id": "94",
+    "name": "2nd Can-Sat ",
+    "description": "ディスクリプション",
+    "billboard": {
+      "horizontalOrigin": "CENTER",
+      "image": "http://cansat.archiving.jp/staging/assets/img/small/20150321195326_550d4da61b53d8.72729492.jpg",
+      "scale": 0.35,
+      "show": "true",
+      "verticalOrigin": "CENTER"
+    },
+    "position": {
+      "cartographicDegrees": [
+        "29.908156599999984",
+        "31.20896419999999",
+        2200
+      ]
+    }
+  }
 ]

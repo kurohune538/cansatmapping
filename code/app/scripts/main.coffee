@@ -17,11 +17,11 @@ viewer.camera.setView
 
 setTimeout 'loadCzml()', 1000
 loadCzml = ->
-  promise = Cesium.CzmlDataSource.load('./czml/test.czml')
+  promise = Cesium.CzmlDataSource.load('./czml/cansatmapping.czml')
   promise.then((dataSource) ->
     viewer.dataSources.add dataSource
     return
   ).otherwise (error) ->
-    alert 'KMLデータが読み込めません'
+    alert 'CZMLデータが読み込めません'
     return
   return

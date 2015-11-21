@@ -26,6 +26,6 @@ loadCzml = function() {
   promise.then(function(dataSource) {
     viewer.dataSources.add(dataSource);
   }).otherwise(function(error) {
-    alert('KMLデータが読み込めません');
+    alert('CZMLデータが読み込めません');
   });
 };
