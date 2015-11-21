@@ -45,8 +45,8 @@ while($post = $stmt -> fetch(PDO::FETCH_ASSOC)) {
 
 
 //czmlを作成
-$fileName = 'cansatmapping';
-$baseUrl = 'http://cansat.archiving.jp/staging/';
+$fileName = 'cansat';
+$baseUrl = 'http://cansat.archiving.jp/';
 
 $jsonArray = array();
 $documentArray = array(
@@ -69,7 +69,7 @@ if (!empty($postsArray)) {
         
         $billboard = array(
             "horizontalOrigin" => "CENTER",
-            "image" => $baseUrl .'assets/img/small/'. $post['team_photo'],
+            "image" => '../assets/img/small/'. $post['team_photo'],
             "scale" => 0.35,
             "show" => "true",
             "verticalOrigin" => "CENTER"
@@ -97,7 +97,7 @@ if (!empty($postsArray)) {
 }
 
 $json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-var_dump ($json);
+// var_dump ($json);
 
 file_put_contents('../czml/' . $fileName . '.czml', $json);
 ?>

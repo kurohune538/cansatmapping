@@ -17,7 +17,7 @@ viewer.camera.setView
 
 setTimeout 'loadCzml()', 1000
 loadCzml = ->
-  promise = Cesium.CzmlDataSource.load('./czml/cansatmapping.czml')
+  promise = Cesium.CzmlDataSource.load('./czml/cansat.czml')
   promise.then((dataSource) ->
     viewer.dataSources.add dataSource
     return
