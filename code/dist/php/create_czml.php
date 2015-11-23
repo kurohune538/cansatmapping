@@ -49,6 +49,7 @@ $fileName = 'cansat';
 $baseUrl = 'http://cansat.archiving.jp/';
 
 $jsonArray = array();
+
 $documentArray = array(
     "id"=>"document",
     "name"=>$fileName,
@@ -59,17 +60,36 @@ array_push($jsonArray, $documentArray);
 
 if (!empty($postsArray)) {
     foreach ($postsArray as $post) {
-        
-        //descriptionの中身をつくりたいけどなんかうまくいかない
-        // $description = htmlspecialchars('<div>');
-        // $description .= htmlspecialchars('<p>'.$post['cansat_name'].'</p>');
-        // $description .= htmlspecialchars('</div>');
+    
+        // echo "ゆーあーるえる=".$post['youtube'];
+        if (preg_match('/www.youtube.com/', $post['youtube'])) {
+           
+            $description = '<iframe width="420" height="315" src="'.$post['youtube'].'" frameborder="0" allowfullscreen=""></iframe>';    
+        }else {
+            $description = '<img class="commingsoon" src="images/comingsoon.png" alt="">';
+        }
 
-        $description = "ディスクリプション";
+        $description .= '<div class="bottom">';
+        $description .= '<img class="cansat_photo" src="assets/img/medium/'.$post['cansat_photo'].'" alt="cansat photo">'; 
+        $description .= '<div class="data_box">';
+        $description .= '<p class="cansat_name">'.$post['cansat_name'].'</p>';
+        $description .= '<p class="mission_overview">'.$post['mission_overview'].'</p>';
+
+        if ($post['pdf']) {
+            $description .= '<a class="pdf" href="http://cansat.archiving.jp/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
+        }
+        else {
+            
+        }
         
+        $description .= '<p class="unisec">University Space Engineering Consortium</p>';
+        $description .= '</div>';
+        $description .= '</div>';
+        
+
         $billboard = array(
             "horizontalOrigin" => "CENTER",
-            "image" => '..//img/small/'. $post['team_photo'],
+            "image" => '../assets/img/small/'. $post['team_photo'],
             "scale" => 0.35,
             "show" => "true",
             "verticalOrigin" => "CENTER"
@@ -92,9 +112,12 @@ if (!empty($postsArray)) {
             "billboard" => $billboard,
             "position" => $position,
         );
+
         array_push($jsonArray, $placemarkArray);
     }
 }
+
+
 
 $json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 var_dump ($json);
