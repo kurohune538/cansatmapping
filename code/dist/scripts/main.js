@@ -5,10 +5,14 @@ options = {
   fullscreenButton: false,
   homeButton: false,
   sceneModePicker: false,
-  timeline: false,
   navigationHelpButton: false,
   geocoder: false,
-  animation: false
+  animation: false,
+  timeline: false,
+  imageryProvider: new Cesium.ArcGisMapServerImageryProvider({
+    url: '//server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer',
+    enablePickFeatures: false
+  })
 };
 
 viewer = new Cesium.Viewer('cesiumContainer', options);
