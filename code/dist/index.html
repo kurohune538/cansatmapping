@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <!-- build:css({.tmp,app}) style/main.min.css-->
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/balloon.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Audiowide" type="text/css">
@@ -25,6 +26,31 @@
 
   <body>
     <div id="cesiumContainer"></div>
+    <header class="header">
+      <h1 class="title">-CANSAT MAPPING-</h1>
+      <div class="nav">
+        <ul>
+          <li><a href="">UPLOAD</a></li>
+          <li><a href="http://www.unisec.jp/flash/index-e.html" target="_blank">UNISEC</a></li>
+          <li> <a href="https://docs.google.com/file/d/0B7uKeVg3VJZRc2ZCelNTbG1ra0k/edit" target="_blank">SITE POLICY</a></li>
+        </ul>
+        <div id="pulldown">
+          <form id="form" name="form" class="places">
+            <select id="select" name="select" onchange="createNetworkLink(this.form.select.value);" class="places">
+              <option>ViewPoints</option>
+              <option value="viewpoint_main">JAPAN</option>
+              <option value="viewpoint02">USAoption(value='viewpoint03') INDIA</option>
+              <option value="viewpoint04">AFRICA</option>
+            </select>
+          </form>
+        </div>
+        <div class="geocode">
+          <form action="javascript:geocode()" class="textbox">
+            <input id="inputtext" name="keywords2" value="" type="text" placeholder="City Search" class="textbox">
+          </form>
+        </div>
+      </div>
+    </header>
     <script src="scripts/main.js"></script>
   </body>
 

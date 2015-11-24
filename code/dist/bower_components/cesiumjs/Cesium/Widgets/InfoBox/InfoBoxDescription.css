@@ -161,6 +161,8 @@ body {
 }
 
 /*バルーンのディスクリプションのスタイル*/
+
+
 /*@import url(https://fonts.googleapis.com/css?family=Audiowide);*/
 
 .cesium-infoBox-description {
@@ -172,6 +174,7 @@ body {
 iframe {
 	width: 100%;
 	height: auto;
+	min-height: 300px;
 }
 
 .commingsoon {
@@ -205,7 +208,7 @@ iframe {
 	margin-top: 10px;
 }
 
-.mission_detail_pdf {
+.pdf {
 	font-size: 16px;
 	margin-top: 15px;
 }

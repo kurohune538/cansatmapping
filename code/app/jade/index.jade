@@ -1,18 +1,39 @@
 extends ./_layouts/_base
 
 block title
-  title Cansat Mapping
+	title Cansat Mapping
 block meta
-  meta(name="description", content="description")
+	meta(name="description", content="description")
 block link
-  // build:css({.tmp,app}) style/main.min.css
-  link(rel='stylesheet' href='style/main.css')
-  link(rel='stylesheet' href='style/balloon.css')
-  link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Audiowide' type='text/css')
-  // endbuild
+	// build:css({.tmp,app}) style/main.min.css
+	link(rel='stylesheet' href='style/reset.css')
+	link(rel='stylesheet' href='style/main.css')
+	link(rel='stylesheet' href='style/balloon.css')
+	link(rel='stylesheet' href='http://fonts.googleapis.com/css?family=Audiowide' type='text/css')
+	// endbuild
 
 block body
-  body
-    #cesiumContainer
-    script(src="scripts/main.js")
+	body
+		#cesiumContainer
+		header.header
+			h1.title -CANSAT MAPPING-
+			.nav
+				ul
+					li
+						a(href='') UPLOAD
+					li
+						a(href='http://www.unisec.jp/flash/index-e.html', target='_blank') UNISEC
+					li 
+						a(href='https://docs.google.com/file/d/0B7uKeVg3VJZRc2ZCelNTbG1ra0k/edit', target='_blank') SITE POLICY
+				#pulldown
+					form#form.places(name='form')
+						select#select.places(name='select', onchange='createNetworkLink(this.form.select.value);')
+							option ViewPoints
+							option(value='viewpoint_main') JAPAN
+							option(value='viewpoint02') USAoption(value='viewpoint03') INDIA
+							option(value='viewpoint04') AFRICA
+				.geocode
+					form.textbox(action='javascript:geocode()')
+						input#inputtext.textbox(name='keywords2', value='', type='text', placeholder='City Search')
+		script(src="scripts/main.js")
       
