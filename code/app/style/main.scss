@@ -22,11 +22,15 @@ html, body, #cesiumContainer {
 	background-color: #000;
 
 	.title {
-		margin-left: 20px;
-		font-size: 26px;	
 		margin-left: 25px;	
-		line-height: $header-height;
 		float: left;
+
+		a {
+			text-decoration: none;
+			font-size: 26px;
+			line-height: $header-height;
+			color: $keycolor;
+		}
 	}
 
 	.nav {
@@ -72,7 +76,7 @@ html, body, #cesiumContainer {
 				font-size: 12px;
 				border: none;
 				background-color: $keycolor;
-				color: red;
+				color: #fff;
 			}
 			#inputtext::-webkit-input-placeholder {
 				color: #fff;

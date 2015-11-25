@@ -17,11 +17,13 @@ html, body, #cesiumContainer {
   color: #1ebc95;
   background-color: #000; }
   .header .title {
-    margin-left: 20px;
-    font-size: 26px;
     margin-left: 25px;
-    line-height: 50px;
     float: left; }
+    .header .title a {
+      text-decoration: none;
+      font-size: 26px;
+      line-height: 50px;
+      color: #1ebc95; }
   .header .nav {
     text-align: right;
     margin-right: 15px; }
@@ -55,7 +57,7 @@ html, body, #cesiumContainer {
         font-size: 12px;
         border: none;
         background-color: #1ebc95;
-        color: red; }
+        color: #fff; }
       .header .nav .geocode #inputtext::-webkit-input-placeholder {
         color: #fff; }
       .header .nav .geocode #inputtext:-ms-input-placeholder {
