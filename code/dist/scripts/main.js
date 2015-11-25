@@ -22,6 +22,8 @@ viewer.camera.setView({
   roll: 0.0
 });
 
+setTimeout('changeViewPoint(0,3)', 500);
+
 setTimeout('loadCzml()', 500);
 
 loadCzml = function() {
@@ -113,10 +115,10 @@ changeViewPoint = function(num, delay) {
   });
 };
 
-viewPointsArray[0] = new viewPoints('JAPAN', 33.284693, 130.266907, 0, -85, 3500);
+viewPointsArray[0] = new viewPoints('JAPAN', 35.87501683, 138.8878458, -15, -40, 2200000);
 
-viewPointsArray[1] = new viewPoints('USA', 33.295993, 130.196842, 0, -89, 8000);
+viewPointsArray[1] = new viewPoints('USA', 34.9576309, -100.3646449, 0, -50, 6000000);
 
-viewPointsArray[2] = new viewPoints('INDIA', 33.260708, 130.230819, 0, -85, 2500);
+viewPointsArray[2] = new viewPoints('INDIA', 17.4346323, 78.8163729, 0, -45, 4000000);
 
-viewPointsArray[3] = new viewPoints('AFRICA', 33.251168, 130.119531, 0, -85, 96062);
+viewPointsArray[3] = new viewPoints('AFRICA', 4.3192223, 19.8916924, 0, -75, 8000000);

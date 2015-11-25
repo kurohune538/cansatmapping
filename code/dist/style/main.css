@@ -55,7 +55,7 @@ html, body, #cesiumContainer {
         font-size: 12px;
         border: none;
         background-color: #1ebc95;
-        color: red; }
+        color: #fff; }
       .header .nav .geocode #inputtext::-webkit-input-placeholder {
         color: #fff; }
       .header .nav .geocode #inputtext:-ms-input-placeholder {
