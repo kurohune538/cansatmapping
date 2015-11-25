@@ -48,3 +48,28 @@ loadJsonLine = (fileName) ->
   return
 
 loadJsonLine '../czml/polyline.json'
+
+# ラインをクリックしたときはinfoBoxを非表示にする
+scene = viewer.scene
+handler = new (Cesium.ScreenSpaceEventHandler)(viewer.canvas)
+handler.setInputAction ((movement) ->
+  childNodesLength = 0
+  element = scene.pick(movement.position)
+  if element
+    setTimeout (->
+      `var childNodesLength`
+      iframeContents = $('iframe:first').contents().find('.cesium-infoBox-description')
+      childNodesLength = iframeContents[0].childNodes.length
+      if childNodesLength == 0
+        $ ->
+          $('.cesium-infoBox-visible').hide()
+          return
+        viewer.selectedEntity = undefined
+      else
+        $ ->
+          $('.cesium-infoBox-visible').show()
+          return
+      return
+    ), 1
+  return
+), Cesium.ScreenSpaceEventType.LEFT_CLICK

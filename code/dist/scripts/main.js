@@ -1,4 +1,4 @@
-var loadCzml, loadJsonLine, options, viewer;
+var handler, loadCzml, loadJsonLine, options, scene, viewer;
 
 options = {
   baseLayerPicker: false,
@@ -41,7 +41,7 @@ loadJsonLine = function(fileName) {
     var i, lineColor, positions, positionsCartesian3;
     for (i in json) {
       positions = json[i].positions;
-      lineColor = Cesium.Color.fromBytes(37, 215, 203, 80);
+      lineColor = Cesium.Color.fromBytes(30, 188, 149, 70);
       positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
       viewer.entities.add({
         name: 'line',
@@ -56,3 +56,31 @@ loadJsonLine = function(fileName) {
 };
 
 loadJsonLine('../czml/polyline.json');
+
+scene = viewer.scene;
+
+handler = new Cesium.ScreenSpaceEventHandler(viewer.canvas);
+
+handler.setInputAction((function(movement) {
+  var childNodesLength, element;
+  childNodesLength = 0;
+  element = scene.pick(movement.position);
+  if (element) {
+    setTimeout((function() {
+      var childNodesLength;
+      var iframeContents;
+      iframeContents = $('iframe:first').contents().find('.cesium-infoBox-description');
+      childNodesLength = iframeContents[0].childNodes.length;
+      if (childNodesLength === 0) {
+        $(function() {
+          $('.cesium-infoBox-visible').hide();
+        });
+        viewer.selectedEntity = void 0;
+      } else {
+        $(function() {
+          $('.cesium-infoBox-visible').show();
+        });
+      }
+    }), 1);
+  }
+}), Cesium.ScreenSpaceEventType.LEFT_CLICK);
