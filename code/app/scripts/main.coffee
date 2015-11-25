@@ -19,7 +19,7 @@ viewer.camera.setView
   position: Cesium.Cartesian3.fromDegrees(138.45, 34.39, 20000000)
   roll: 0.0
 
-# setTimeout 'changeViewPoint(0,3)', 500
+setTimeout 'changeViewPoint(0,3)', 500
 
 setTimeout 'loadCzml()', 100
 # loadCzml()

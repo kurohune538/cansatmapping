@@ -1,0 +1,5 @@
+.cesium-infoBox {
+  width: 580px;
+  min-height: 400px; }
+  .cesium-infoBox button {
+    display: none; }
