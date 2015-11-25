@@ -24,7 +24,9 @@ viewer.camera.setView({
 
 setTimeout('changeViewPoint(0,3)', 500);
 
-setTimeout('loadCzml()', 100);
+setTimeout('loadCzml()', 3400);
+
+setTimeout('loadJsonLine("../czml/polyline.json")', 3400);
 
 loadCzml = function() {
   var promise;
@@ -56,8 +58,6 @@ loadJsonLine = function(fileName) {
     }
   });
 };
-
-loadJsonLine('../czml/polyline.json');
 
 scene = viewer.scene;
 

@@ -19,10 +19,13 @@ viewer.camera.setView
   position: Cesium.Cartesian3.fromDegrees(138.45, 34.39, 20000000)
   roll: 0.0
 
+# 視点を切換える
 setTimeout 'changeViewPoint(0,3)', 500
 
-setTimeout 'loadCzml()', 100
-# loadCzml()
+# czmlとポリラインを読み込む
+setTimeout 'loadCzml()', 3400
+setTimeout 'loadJsonLine("../czml/polyline.json")', 3400
+
 
 loadCzml = ->
   promise = Cesium.CzmlDataSource.load('./czml/cansat.czml')
@@ -50,8 +53,6 @@ loadJsonLine = (fileName) ->
           material: lineColor
     return
   return
-
-loadJsonLine '../czml/polyline.json'
 
 # ラインをクリックしたときはinfoBoxを非表示にする
 scene = viewer.scene
