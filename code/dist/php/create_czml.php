@@ -46,9 +46,11 @@ while($post = $stmt -> fetch(PDO::FETCH_ASSOC)) {
 
 //czmlを作成
 $fileName = 'cansat';
-$baseUrl = 'http://cansat.archiving.jp/';
-
 $jsonArray = array();
+
+//ポリライン
+$polylineArray = array();
+
 
 $documentArray = array(
     "id"=>"document",
@@ -63,10 +65,11 @@ if (!empty($postsArray)) {
     
         // echo "ゆーあーるえる=".$post['youtube'];
         if (preg_match('/www.youtube.com/', $post['youtube'])) {
-           
-            $description = '<iframe width="420" height="315" src="'.$post['youtube'].'" frameborder="0" allowfullscreen=""></iframe>';    
+            // $description = '<iframe width="420" height="315" src="'.$post['youtube'].'" frameborder="0" allowfullscreen=""></iframe>';
+            $description = '<iframe width="420" height="345" src="http://www.youtube.com/embed/sd1VINE9nZA" frameborder="0" allowfullscreen=""></iframe>';
         }else {
-            $description = '<img class="commingsoon" src="images/comingsoon.png" alt="">';
+            // $description = '<img class="commingsoon" src="images/comingsoon.png" alt="">';
+            $description = '<iframe width="420" height="345" src="http://www.youtube.com/embed/sd1VINE9nZA" frameborder="0" allowfullscreen=""></iframe>';
         }
 
         $description .= '<div class="bottom">';
@@ -98,7 +101,7 @@ if (!empty($postsArray)) {
         $point = [
             $post['lon'],
             $post['lat'],
-            2200
+            20000
         ];
 
         $position = array(
@@ -112,17 +115,33 @@ if (!empty($postsArray)) {
             "billboard" => $billboard,
             "position" => $position,
         );
-
         array_push($jsonArray, $placemarkArray);
+
+
+        //ポリライン
+        $polylinePosition = array(
+            "positions" => [
+                139.455122,
+                35.425190,
+                10.0,
+                $post['lon'],
+                $post['lat'],
+                19900]
+            );
+        array_push($polylineArray, $polylinePosition);        
     }
 }
 
-
-
+//czml作成
 $json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 var_dump ($json);
-
 file_put_contents('../czml/' . $fileName . '.czml', $json);
+
+//ポリラインのJSON作成
+$polylineJSON = json_encode($polylineArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
+file_put_contents('../czml/polyline.json', $polylineJSON);
+
+
 ?>
 
 

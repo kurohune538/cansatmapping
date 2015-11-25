@@ -1,4 +1,4 @@
-var loadCzml, options, viewer;
+var loadCzml, loadJsonLine, options, viewer;
 
 options = {
   baseLayerPicker: false,
@@ -22,7 +22,7 @@ viewer.camera.setView({
   roll: 0.0
 });
 
-setTimeout('loadCzml()', 1000);
+setTimeout('loadCzml()', 500);
 
 loadCzml = function() {
   var promise;
@@ -33,3 +33,26 @@ loadCzml = function() {
     alert('CZMLデータが読み込めません');
   });
 };
+
+loadJsonLine = function(fileName) {
+  var jsonFile;
+  jsonFile = fileName;
+  $.getJSON(jsonFile, function(json) {
+    var i, lineColor, positions, positionsCartesian3;
+    for (i in json) {
+      positions = json[i].positions;
+      lineColor = Cesium.Color.fromBytes(37, 215, 203, 80);
+      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
+      viewer.entities.add({
+        name: 'line',
+        polyline: {
+          positions: positionsCartesian3,
+          width: 2,
+          material: lineColor
+        }
+      });
+    }
+  });
+};
+
+loadJsonLine('../czml/polyline.json');
