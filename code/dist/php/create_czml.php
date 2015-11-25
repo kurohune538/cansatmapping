@@ -44,52 +44,56 @@ while($post = $stmt -> fetch(PDO::FETCH_ASSOC)) {
 }
 
 
-//czmlを作成
-$fileName = 'cansat';
-$jsonArray = array();
+//czml用配列
+$czmlArray = array();
+$czmlFileName = 'cansat';
 
-//ポリライン
+//ポリライン用配列
 $polylineArray = array();
+$polylineFileName = 'polyline';
 
-
+//czmlの先頭にくるやつ
 $documentArray = array(
     "id"=>"document",
-    "name"=>$fileName,
+    "name"=>$czmlFileName,
     "version"=>"1.0",
 );
+array_push($czmlArray, $documentArray);
 
-array_push($jsonArray, $documentArray);
-
+//投稿数だけまわす
 if (!empty($postsArray)) {
     foreach ($postsArray as $post) {
-    
-        // echo "ゆーあーるえる=".$post['youtube'];
+        
+        //動画がある場合追加
         if (preg_match('/www.youtube.com/', $post['youtube'])) {
-            // $description = '<iframe width="420" height="315" src="'.$post['youtube'].'" frameborder="0" allowfullscreen=""></iframe>';
-            $description = '<iframe width="420" height="345" src="http://www.youtube.com/embed/sd1VINE9nZA" frameborder="0" allowfullscreen=""></iframe>';
+            //youtubeの動画IDを取得
+            $featur = substr($post['youtube'], -6);
+            if ($featur == 'featur') {
+                $videoID = substr($post['youtube'], -18, 11);
+            }
+            else {
+                $videoID = substr($post['youtube'], -11);    
+            }
+            $description = '<iframe src="http://www.youtube.com/embed/'.$videoID.'" frameborder="0" allowfullscreen=""></iframe>';
         }else {
-            // $description = '<img class="commingsoon" src="images/comingsoon.png" alt="">';
-            $description = '<iframe width="420" height="345" src="http://www.youtube.com/embed/sd1VINE9nZA" frameborder="0" allowfullscreen=""></iframe>';
+            //動画がない場合は画像
+            $description = '<img class="commingsoon" src="images/comingsoon.png" alt="">';
         }
-
         $description .= '<div class="bottom">';
         $description .= '<img class="cansat_photo" src="assets/img/medium/'.$post['cansat_photo'].'" alt="cansat photo">'; 
         $description .= '<div class="data_box">';
         $description .= '<p class="cansat_name">'.$post['cansat_name'].'</p>';
         $description .= '<p class="mission_overview">'.$post['mission_overview'].'</p>';
-
         if ($post['pdf']) {
             $description .= '<a class="pdf" href="http://cansat.archiving.jp/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
         }
         else {
             
         }
-        
         $description .= '<p class="unisec">University Space Engineering Consortium</p>';
         $description .= '</div>';
         $description .= '</div>';
         
-
         $billboard = array(
             "horizontalOrigin" => "CENTER",
             "image" => '../assets/img/small/'. $post['team_photo'],
@@ -115,10 +119,11 @@ if (!empty($postsArray)) {
             "billboard" => $billboard,
             "position" => $position,
         );
-        array_push($jsonArray, $placemarkArray);
+
+        //ビルボードを追加
+        array_push($czmlArray, $placemarkArray);
 
 
-        //ポリライン
         $polylinePosition = array(
             "positions" => [
                 139.455122,
@@ -128,18 +133,19 @@ if (!empty($postsArray)) {
                 $post['lat'],
                 19900]
             );
+        //ポリラインを追加
         array_push($polylineArray, $polylinePosition);        
     }
 }
 
 //czml作成
-$json = json_encode($jsonArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
+$json = json_encode($czmlArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 var_dump ($json);
-file_put_contents('../czml/' . $fileName . '.czml', $json);
+file_put_contents('../czml/' . $czmlFileName . '.czml', $json);
 
 //ポリラインのJSON作成
 $polylineJSON = json_encode($polylineArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-file_put_contents('../czml/polyline.json', $polylineJSON);
+file_put_contents('../czml/'.$polylineFileName.'.json', $polylineJSON);
 
 
 ?>

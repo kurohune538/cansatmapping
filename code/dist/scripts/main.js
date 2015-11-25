@@ -22,9 +22,7 @@ viewer.camera.setView({
   roll: 0.0
 });
 
-setTimeout('changeViewPoint(0,3)', 500);
-
-setTimeout('loadCzml()', 500);
+setTimeout('loadCzml()', 100);
 
 loadCzml = function() {
   var promise;

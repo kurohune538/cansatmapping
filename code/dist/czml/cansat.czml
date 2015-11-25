@@ -7,7 +7,7 @@
     {
         "id": "82",
         "name": "SNUSAT",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141120103853_546d463c963425.44394203.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Satellite and Rover</p><p class=\"mission_overview\">Bring-Back mission</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141120103853_546d463c963425.44394203.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Satellite and Rover</p><p class=\"mission_overview\">Bring-Back mission</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20141120103853_546d462dbc6db4.82515963.jpg",
@@ -26,7 +26,7 @@
     {
         "id": "27",
         "name": "Tokyo University of Science Kimura Lab-Canal7",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204170717_52f09fb5dc8fc5.27362056.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">later</p><p class=\"mission_overview\">-Main Mission- Run Back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204170717_52f09fb6aefaf0.59305983.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204170717_52f09fb5dc8fc5.27362056.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">later</p><p class=\"mission_overview\">-Main Mission- Run Back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204170717_52f09fb6aefaf0.59305983.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140204170717_52f09fb5621c98.40382875.png",
@@ -45,7 +45,7 @@
     {
         "id": "68",
         "name": "静岡大学　SATT",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140831115849_54028f6b1b54d8.64058108.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Sutetara akaaan</p><p class=\"mission_overview\">We participated in the cansatt flyback competition.thisis the first time for SATT.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140831115849_54028f6c6784f4.25296138.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140831115849_54028f6b1b54d8.64058108.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Sutetara akaaan</p><p class=\"mission_overview\">We participated in the cansatt flyback competition.thisis the first time for SATT.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140831115849_54028f6c6784f4.25296138.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140831115849_54028f6959da67.06586987.jpg",
@@ -64,7 +64,7 @@
     {
         "id": "66",
         "name": "Nakatsugawa-tech. High school  ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140731201938_53da264c5397a0.57309720.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">There is still no name.  </p><p class=\"mission_overview\">We make helpful equipment using a 3-axes accelerometer.</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140731201938_53da264c5397a0.57309720.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">There is still no name.  </p><p class=\"mission_overview\">We make helpful equipment using a 3-axes accelerometer.</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140731201938_53da264a172767.18275750.jpg",
@@ -83,7 +83,7 @@
     {
         "id": "13",
         "name": "TMU*CAN",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131031105732_5271b90fda5305.27126226.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU*CAN</p><p class=\"mission_overview\">Bring back a kind of pudding without any crack</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/TjubOKrnRFI\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131031105732_5271b90fda5305.27126226.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU*CAN</p><p class=\"mission_overview\">Bring back a kind of pudding without any crack</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20131031105732_5271b90c008e46.67063481.jpg",
@@ -102,7 +102,7 @@
     {
         "id": "20",
         "name": "CLTP3 Team",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131123220517_5290a810924b81.64889325.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CLTP3 CanSat</p><p class=\"mission_overview\">To take a movie from the CanSat in the sky</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20131123220517_5290a810ce4da5.31696796.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/usxzMrzzCP0\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131123220517_5290a810924b81.64889325.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CLTP3 CanSat</p><p class=\"mission_overview\">To take a movie from the CanSat in the sky</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20131123220517_5290a810ce4da5.31696796.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20131123220517_5290a80d3050f1.30967955.jpg",
@@ -121,7 +121,7 @@
     {
         "id": "28",
         "name": "TBY",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204172609_52f0a421964561.63683429.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TBY</p><p class=\"mission_overview\">To go to the target and take a video while flying.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204172609_52f0a423830ae1.30554887.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/-epGo6N3iwg\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204172609_52f0a421964561.63683429.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TBY</p><p class=\"mission_overview\">To go to the target and take a video while flying.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204172609_52f0a423830ae1.30554887.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -140,7 +140,7 @@
     {
         "id": "25",
         "name": "Keio University Team WolveZ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204161525_52f0938e86cd52.80715236.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">later</p><p class=\"mission_overview\">See the attached.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204161525_52f0938f9c6627.65316064.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140204161525_52f0938e86cd52.80715236.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">later</p><p class=\"mission_overview\">See the attached.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140204161525_52f0938f9c6627.65316064.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140204161525_52f0938d6151e2.92888799.png",
@@ -159,7 +159,7 @@
     {
         "id": "22",
         "name": "UVic ECOSat",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140114065833_52d4618d1a8075.27145147.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">ECOSat</p><p class=\"mission_overview\">Diamagnetic Experimentation</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140114065833_52d4618f369842.69852497.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/41PD4GzirSc\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140114065833_52d4618d1a8075.27145147.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">ECOSat</p><p class=\"mission_overview\">Diamagnetic Experimentation</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140114065833_52d4618f369842.69852497.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140114065833_52d46189cbd6f0.26933172.jpg",
@@ -178,7 +178,7 @@
     {
         "id": "21",
         "name": "All Nations University - Intelligent Space Systems",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131216221508_52aefcdd37cbf1.10233593.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Yankey and RoSam</p><p class=\"mission_overview\">Data acquisition: Aerial Videos and Atmospheric measurements (Pressure and Temperature)</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/TVv6_6_g5DU\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131216221508_52aefcdd37cbf1.10233593.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Yankey and RoSam</p><p class=\"mission_overview\">Data acquisition: Aerial Videos and Atmospheric measurements (Pressure and Temperature)</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20131216221508_52aefcdc612898.50112654.jpg",
@@ -197,7 +197,7 @@
     {
         "id": "18",
         "name": "TMU W",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131113133448_5283016937be66.47834203.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU W</p><p class=\"mission_overview\">Running back to given goal</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/XKLNs8RMth0\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131113133448_5283016937be66.47834203.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU W</p><p class=\"mission_overview\">Running back to given goal</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20131113133448_52830168eedde1.85586005.jpg",
@@ -216,7 +216,7 @@
     {
         "id": "19",
         "name": "CLTP2",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131115122149_5285934d8560f5.93695543.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CLTP2 CANSAT </p><p class=\"mission_overview\">Remote sensing</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20131115122149_5285934e0b51c0.08255063.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/SwK3dLrUmEQ\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20131115122149_5285934d8560f5.93695543.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CLTP2 CANSAT </p><p class=\"mission_overview\">Remote sensing</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20131115122149_5285934e0b51c0.08255063.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20131115122149_5285934d2fbfc6.55256111.jpg",
@@ -235,7 +235,7 @@
     {
         "id": "30",
         "name": " Tokyo Institute of Technology  -  N-MOS'S",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205090622_52f1807fad82c4.52598876.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">MICHIZANE</p><p class=\"mission_overview\">Taking ground pictures by smart phone camera & Flying and shooting video</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205090622_52f18080b0d0a2.20879287.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205090622_52f1807fad82c4.52598876.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">MICHIZANE</p><p class=\"mission_overview\">Taking ground pictures by smart phone camera & Flying and shooting video</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205090622_52f18080b0d0a2.20879287.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205090622_52f1807ed1daa0.49737061.png",
@@ -254,7 +254,7 @@
     {
         "id": "32",
         "name": "Kyushu Institute of Technology  - KINGS",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205093258_52f186bb446007.16987731.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Our CanSat made with the \"Kumiki\" structure.</p><p class=\"mission_overview\">See the Mission Details</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205093258_52f186bc5a1188.09443443.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205093258_52f186bb446007.16987731.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Our CanSat made with the \"Kumiki\" structure.</p><p class=\"mission_overview\">See the Mission Details</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205093258_52f186bc5a1188.09443443.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205093258_52f186ba2303e4.64241104.png",
@@ -273,7 +273,7 @@
     {
         "id": "35",
         "name": "The University of Electro-Communications - Aoi",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205095219_52f18b447bb066.86792215.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Multi-Rovers</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205095219_52f18b45b97956.91541663.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205095219_52f18b447bb066.86792215.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Multi-Rovers</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205095219_52f18b45b97956.91541663.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205095219_52f18b43496626.18628450.png",
@@ -292,7 +292,7 @@
     {
         "id": "38",
         "name": "Tokyo Institute of Technology - TITANIKU",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205102739_52f1938c54a895.45567296.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TITANIKU</p><p class=\"mission_overview\">The model of a weather observation unit available.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205102739_52f1938cd4f013.63360282.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205102739_52f1938c54a895.45567296.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TITANIKU</p><p class=\"mission_overview\">The model of a weather observation unit available.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205102739_52f1938cd4f013.63360282.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205102739_52f1938bdfe359.59893865.jpg",
@@ -311,7 +311,7 @@
     {
         "id": "37",
         "name": "UEC - Recon Corps UEC Branch",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205101126_52f18fbfee8df5.47343727.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">See the Mission Details.</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205101126_52f18fc12ec4d1.02714834.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205101126_52f18fbfee8df5.47343727.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">See the Mission Details.</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205101126_52f18fc12ec4d1.02714834.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205101126_52f18fbee00dc1.70805885.jpg",
@@ -330,7 +330,7 @@
     {
         "id": "39",
         "name": "Tokyo Denki University Space Project",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205122745_52f1afb28ff6d4.54238848.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TDU CanSat</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205122745_52f1afb30dcc31.81770882.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205122745_52f1afb28ff6d4.54238848.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TDU CanSat</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205122745_52f1afb30dcc31.81770882.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205122745_52f1afb1df7e96.81485284.jpg",
@@ -349,7 +349,7 @@
     {
         "id": "40",
         "name": "Kyushu Institute of Technology -  KITCATS",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205123751_52f1b210cf6b70.43057803.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">2013th KIT CanSat</p><p class=\"mission_overview\">Run Back and Share the information of CanSat</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205123751_52f1b212553a52.00181284.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205123751_52f1b210cf6b70.43057803.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">2013th KIT CanSat</p><p class=\"mission_overview\">Run Back and Share the information of CanSat</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205123751_52f1b212553a52.00181284.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205123751_52f1b20fd85638.77369583.jpg",
@@ -368,7 +368,7 @@
     {
         "id": "41",
         "name": "Aichi University of Technology -  STELA I",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205124903_52f1b4afd6a583.72531999.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA I</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205124903_52f1b4b0961685.39995598.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205124903_52f1b4afd6a583.72531999.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA I</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205124903_52f1b4b0961685.39995598.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205124903_52f1b4af2fd039.89088261.jpg",
@@ -387,7 +387,7 @@
     {
         "id": "42",
         "name": "Aichi University of Technology -  STELA II",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205125723_52f1b6a435e969.62121539.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA II</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205125723_52f1b6a5136396.83182206.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205125723_52f1b6a435e969.62121539.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA II</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205125723_52f1b6a5136396.83182206.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205125723_52f1b6a3aace25.64453034.jpg",
@@ -406,7 +406,7 @@
     {
         "id": "43",
         "name": "The University of Tokyo - IKATOZ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205130726_52f1b8feae6d79.85324711.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">IKATOZ</p><p class=\"mission_overview\">Fly back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205130726_52f1b8fee26e47.04982042.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205130726_52f1b8feae6d79.85324711.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">IKATOZ</p><p class=\"mission_overview\">Fly back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205130726_52f1b8fee26e47.04982042.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205130726_52f1b8fe562817.63774117.jpg",
@@ -425,7 +425,7 @@
     {
         "id": "44",
         "name": "The University of Tokyo - Team Canopus",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205131932_52f1bbd4d40c65.90117644.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">HIKYAKU</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205131932_52f1bbd5e16362.56299163.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205131932_52f1bbd4d40c65.90117644.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">HIKYAKU</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205131932_52f1bbd5e16362.56299163.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205131932_52f1bbd4528b33.66142460.jpg",
@@ -444,7 +444,7 @@
     {
         "id": "45",
         "name": "TMG",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205134200_52f1c1195a9045.58999723.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMG</p><p class=\"mission_overview\">Bring back a kind of pudding without any crack</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/TPMaY6dqyNc\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205134200_52f1c1195a9045.58999723.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMG</p><p class=\"mission_overview\">Bring back a kind of pudding without any crack</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205134200_52f1c1189e00b7.38608381.png",
@@ -463,7 +463,7 @@
     {
         "id": "54",
         "name": "TMU - TM brothers",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205154545_52f1de1aa083c0.39841858.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TM brothers</p><p class=\"mission_overview\">Taking pictures correctly from separation to landing</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205154545_52f1de1b9578a7.72962655.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205154545_52f1de1aa083c0.39841858.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TM brothers</p><p class=\"mission_overview\">Taking pictures correctly from separation to landing</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205154545_52f1de1b9578a7.72962655.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205154545_52f1de19b82143.03852019.jpg",
@@ -482,7 +482,7 @@
     {
         "id": "53",
         "name": "Aichi Univ. of Technology - STELA I",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205145657_52f1d2aa9a5946.32635028.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA I (2012)</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205145657_52f1d2ab36e301.26472936.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205145657_52f1d2aa9a5946.32635028.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">STELA I (2012)</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205145657_52f1d2ab36e301.26472936.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205145657_52f1d2a964e902.89725193.jpg",
@@ -501,7 +501,7 @@
     {
         "id": "50",
         "name": "Kyushu Institute of Technology - KINGS",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205143202_52f1ccd3a290a2.52208002.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">KINGS (2012)</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205143202_52f1ccd49ed3f3.95013166.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205143202_52f1ccd3a290a2.52208002.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">KINGS (2012)</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205143202_52f1ccd49ed3f3.95013166.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205143202_52f1ccd2d225c8.72567084.jpg",
@@ -520,7 +520,7 @@
     {
         "id": "55",
         "name": "TMU Family",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205155825_52f1e11224ef91.25774644.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU Family</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205155825_52f1e1130340a1.49043985.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205155825_52f1e11224ef91.25774644.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TMU Family</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205155825_52f1e1130340a1.49043985.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205155825_52f1e111e728d7.76256049.jpg",
@@ -539,7 +539,7 @@
     {
         "id": "56",
         "name": "Akita University - ASSP",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205161219_52f1e454dfeab4.56299834.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Seva-9 Andoroid</p><p class=\"mission_overview\">The purpose of our CanSat is to get the flight data by Android smartphone.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205161219_52f1e455a2bc29.02784811.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/WrYTC8SFrOk\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205161219_52f1e454dfeab4.56299834.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Seva-9 Andoroid</p><p class=\"mission_overview\">The purpose of our CanSat is to get the flight data by Android smartphone.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205161219_52f1e455a2bc29.02784811.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205161219_52f1e4532e6ff9.64452181.jpg",
@@ -558,7 +558,7 @@
     {
         "id": "57",
         "name": "The Univ. of Electro-Communications -  McKinley",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205165140_52f1ed8d2f3914.36095978.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\"> McKinley</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205165140_52f1ed8e22edd0.46761402.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205165140_52f1ed8d2f3914.36095978.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\"> McKinley</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205165140_52f1ed8e22edd0.46761402.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205165140_52f1ed8c69d4d3.32327964.jpg",
@@ -577,7 +577,7 @@
     {
         "id": "60",
         "name": "The Univ. of Tokyo - NASU  ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205171828_52f1f3d4b3c2c8.93446040.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">NASU</p><p class=\"mission_overview\">Fly back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205171828_52f1f3d5516291.68822504.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205171828_52f1f3d4b3c2c8.93446040.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">NASU</p><p class=\"mission_overview\">Fly back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205171828_52f1f3d5516291.68822504.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205171828_52f1f3d4246035.12078598.jpg",
@@ -596,7 +596,7 @@
     {
         "id": "59",
         "name": "UEC - Tequila Sunrise",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205165624_52f1eea8ee8e10.15104050.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\"> Tequila Sunrise</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205165624_52f1eea96d1e69.26297681.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205165624_52f1eea8ee8e10.15104050.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\"> Tequila Sunrise</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205165624_52f1eea96d1e69.26297681.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205165624_52f1eea83f4750.24355754.jpg",
@@ -615,7 +615,7 @@
     {
         "id": "65",
         "name": "CLTP4",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205182732_52f204059dc1d1.16708126.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CanSat for CLTP4</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205182732_52f2040d91b496.68358011.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/3nLwvCivXv0\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205182732_52f204059dc1d1.16708126.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CanSat for CLTP4</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205182732_52f2040d91b496.68358011.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205182732_52f20404c05b90.32214418.jpg",
@@ -634,7 +634,7 @@
     {
         "id": "64",
         "name": "CLTP1",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205182235_52f202dc085817.81853204.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CanSat for CLTP1</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205182235_52f202dc2d2157.93290864.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140205182235_52f202dc085817.81853204.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">CanSat for CLTP1</p><p class=\"mission_overview\">See the Mission Details.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140205182235_52f202dc2d2157.93290864.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140205182235_52f202db9d4f16.21208883.jpg",
@@ -653,7 +653,7 @@
     {
         "id": "69",
         "name": "Programa para la Experimentación e Investigación A",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140921094314_541e1f27eafd42.77422847.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Telex I</p><p class=\"mission_overview\">Telemetry. </p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/o1WvcOKwzFs\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140921094314_541e1f27eafd42.77422847.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Telex I</p><p class=\"mission_overview\">Telemetry. </p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140921094314_541e1f220dd4e5.70352737.png",
@@ -672,7 +672,7 @@
     {
         "id": "70",
         "name": " Tokyo University of Science Kimura Lab (So-seki)",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140926144606_5424fd9f378fd5.57685750.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">To extract horizon by image processing on CanSat Open-Class sized rover that can run-back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140926144606_5424fd9fed7753.56236437.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140926144606_5424fd9f378fd5.57685750.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">To extract horizon by image processing on CanSat Open-Class sized rover that can run-back</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140926144606_5424fd9fed7753.56236437.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140926144606_5424fd9eae63a2.99786425.jpg",
@@ -691,7 +691,7 @@
     {
         "id": "71",
         "name": "Hokkaido University of Science, Satori laboratory",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140927193603_54269315d56195.94867065.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Botti</p><p class=\"mission_overview\">Rover runs autonomy using a camera and GPS</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140927193603_5426931d7a2cb9.65151259.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140927193603_54269315d56195.94867065.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Botti</p><p class=\"mission_overview\">Rover runs autonomy using a camera and GPS</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140927193603_5426931d7a2cb9.65151259.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140927193603_5426931392eb32.64408149.jpg",
@@ -710,7 +710,7 @@
     {
         "id": "72",
         "name": "Hokkaido University of Science, Satori laboratory",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140927194702_542695a6f21ea2.83816054.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Botti</p><p class=\"mission_overview\">Rover runs autonomy using a camera and GPS</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140927194702_542695aeb48375.09778149.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140927194702_542695a6f21ea2.83816054.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Botti</p><p class=\"mission_overview\">Rover runs autonomy using a camera and GPS</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140927194702_542695aeb48375.09778149.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -729,7 +729,7 @@
     {
         "id": "73",
         "name": "芝浦衛星チーム(Shibaura Satellite Team)",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">Ranback</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">Ranback</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -748,7 +748,7 @@
     {
         "id": "74",
         "name": "九州大学SATELLITE-Q",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TENDENKA-Q</p><p class=\"mission_overview\">runback</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">TENDENKA-Q</p><p class=\"mission_overview\">runback</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -767,7 +767,7 @@
     {
         "id": "75",
         "name": "KITCATS",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140929193745_54293679ca79e8.87227472.pictclippin\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">KITCAST2014</p><p class=\"mission_overview\">Cansat Radar</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140929193745_54293679ca9982.69309234.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140929193745_54293679ca79e8.87227472.pictclippin\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">KITCAST2014</p><p class=\"mission_overview\">Cansat Radar</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140929193745_54293679ca9982.69309234.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140929193745_542936799409b7.91491224.jpg",
@@ -786,7 +786,7 @@
     {
         "id": "76",
         "name": "SHIBAURA INSTITUTE of TECHNOROGY",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140930042256_5429b19104ec97.31081345.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Iris</p><p class=\"mission_overview\">RUNBACK</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140930042256_5429b19104ec97.31081345.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Iris</p><p class=\"mission_overview\">RUNBACK</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20140930042256_5429b19033aa38.34146554.png",
@@ -805,7 +805,7 @@
     {
         "id": "77",
         "name": "KUT Rocket Project (KRP)",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140930210143_542a9ba767cd85.84409232.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">RUNBACK</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140930210143_542a9bab988885.11810801.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20140930210143_542a9ba767cd85.84409232.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">N/A</p><p class=\"mission_overview\">RUNBACK</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20140930210143_542a9bab988885.11810801.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -824,7 +824,7 @@
     {
         "id": "78",
         "name": "Keio University Team Wolve'Z",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002130818_542ccfb2e12962.22275216.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002130818_542ccfb2e12962.22275216.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -843,7 +843,7 @@
     {
         "id": "79",
         "name": "Keio University Team WolveZ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141002131552_542cd178e7d561.35314430.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002131552_542cd17a318ef9.07407554.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141002131552_542cd178e7d561.35314430.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002131552_542cd17a318ef9.07407554.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -862,7 +862,7 @@
     {
         "id": "80",
         "name": "Keio University Team WolveZ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141002184940_542d1fb4d39720.47523734.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002184940_542d1fb6160311.12349842.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/GWthqrWvNzQ\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141002184940_542d1fb4d39720.47523734.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SPIDERMANGO</p><p class=\"mission_overview\">Our CanSat is combined quad-copter and rover. The CanSat can drive using thrust of its four propelle</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141002184940_542d1fb6160311.12349842.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -881,7 +881,7 @@
     {
         "id": "81",
         "name": "ARLISS2014_office",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">ARLISS2014</p><p class=\"mission_overview\">test</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">ARLISS2014</p><p class=\"mission_overview\">test</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -900,7 +900,7 @@
     {
         "id": "83",
         "name": "CanSat Veracruz",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Titán 1 </p><p class=\"mission_overview\">The mission was designed to acquire telemetry from two temperature sensors and one pressure sensor d</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/LW0UEQWao3A\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Titán 1 </p><p class=\"mission_overview\">The mission was designed to acquire telemetry from two temperature sensors and one pressure sensor d</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -919,7 +919,7 @@
     {
         "id": "89",
         "name": "ISSL",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150116183547_54b8db7645fcd5.10683314.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Yankey and RoSam</p><p class=\"mission_overview\">To take aerial coverage of the vicinity and measure atmospheric temperature and pressure</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/TVv6_6_g5DU\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150116183547_54b8db7645fcd5.10683314.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Yankey and RoSam</p><p class=\"mission_overview\">To take aerial coverage of the vicinity and measure atmospheric temperature and pressure</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20150116183547_54b8db737a17c0.79806820.jpg",
@@ -938,7 +938,7 @@
     {
         "id": "85",
         "name": "三光",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141126155150_547578865dff70.90782332.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">三光</p><p class=\"mission_overview\">Find dust using light scattering</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141126155150_5475788f667aa5.06484248.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141126155150_547578865dff70.90782332.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">三光</p><p class=\"mission_overview\">Find dust using light scattering</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20141126155150_5475788f667aa5.06484248.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20141126155150_54757886081619.16648069.png",
@@ -957,7 +957,7 @@
     {
         "id": "86",
         "name": "BlueWave",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141126161434_54757dda7acd97.29540118.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">BWSAT</p><p class=\"mission_overview\">Research Atmospheric Stability, Paragliding Implementation</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20141126161434_54757dda7acd97.29540118.png\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">BWSAT</p><p class=\"mission_overview\">Research Atmospheric Stability, Paragliding Implementation</p><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20141126161434_54757dda34fe16.86992635.png",
@@ -976,7 +976,7 @@
     {
         "id": "90",
         "name": "TOYOTA Technical High School",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150220141549_54e6c30953e8d0.73646734.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU</p><p class=\"mission_overview\">An artificial rainbow is generated and Occurrence condition is considered</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150220141549_54e6c30c8a2651.33853257.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150220141549_54e6c30953e8d0.73646734.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU</p><p class=\"mission_overview\">An artificial rainbow is generated and Occurrence condition is considered</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150220141549_54e6c30c8a2651.33853257.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20150220141549_54e6c305ee2420.62061230.jpg",
@@ -995,7 +995,7 @@
     {
         "id": "91",
         "name": "TOYOTA Technical High School",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150223115435_54ea966bc0a588.64398918.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU-Rover</p><p class=\"mission_overview\">Rovers development for the spectrum observations.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150223115435_54ea966c747d14.03741809.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150223115435_54ea966bc0a588.64398918.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU-Rover</p><p class=\"mission_overview\">Rovers development for the spectrum observations.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150223115435_54ea966c747d14.03741809.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -1014,7 +1014,7 @@
     {
         "id": "92",
         "name": "TOYOTA Technical High School",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150223140448_54eab4f1551198.04235187.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU-Rover</p><p class=\"mission_overview\">Rovers development for the spectrum observations.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150223140448_54eab4f1c489c9.00114149.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<img class=\"commingsoon\" src=\"images/comingsoon.png\" alt=\"\"><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150223140448_54eab4f1551198.04235187.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">SICU-Rover</p><p class=\"mission_overview\">Rovers development for the spectrum observations.</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150223140448_54eab4f1c489c9.00114149.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20150223140448_54eab4f0a24d25.10412216.jpg",
@@ -1033,7 +1033,7 @@
     {
         "id": "93",
         "name": "2nd Can-Sat ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150310233235_54ff00832dbeb1.43553582.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">2nd Can-Sat </p><p class=\"mission_overview\">build a can-sized satellite has the ability to collect data for environmental services and natural v</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150310233235_54ff0084351991.13222375.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/AG9fEGUUxZ0\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150310233235_54ff00832dbeb1.43553582.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">2nd Can-Sat </p><p class=\"mission_overview\">build a can-sized satellite has the ability to collect data for environmental services and natural v</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150310233235_54ff0084351991.13222375.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/",
@@ -1052,7 +1052,7 @@
     {
         "id": "94",
         "name": "2nd Can-Sat ",
-        "description": "<iframe width=\"420\" height=\"345\" src=\"http://www.youtube.com/embed/sd1VINE9nZA\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150321195326_550d4dbb88e571.10722534.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Can Sat II</p><p class=\"mission_overview\">The aim of this project is to build a Nano-satellite has the ability to collect data for environment</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150321195326_550d4dc39fb6c1.41856302.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
+        "description": "<iframe src=\"http://www.youtube.com/embed/AG9fEGUUxZ0\" frameborder=\"0\" allowfullscreen=\"\"></iframe><div class=\"bottom\"><img class=\"cansat_photo\" src=\"assets/img/medium/20150321195326_550d4dbb88e571.10722534.jpg\" alt=\"cansat photo\"><div class=\"data_box\"><p class=\"cansat_name\">Can Sat II</p><p class=\"mission_overview\">The aim of this project is to build a Nano-satellite has the ability to collect data for environment</p><a class=\"pdf\" href=\"http://cansat.archiving.jp/assets/pdf/20150321195326_550d4dc39fb6c1.41856302.pdf\" target=\"_blank\">Abstract</a><p class=\"unisec\">University Space Engineering Consortium</p></div></div>",
         "billboard": {
             "horizontalOrigin": "CENTER",
             "image": "../assets/img/small/20150321195326_550d4da61b53d8.72729492.jpg",
