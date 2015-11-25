@@ -1,4 +1,4 @@
-var handler, loadCzml, loadJsonLine, options, scene, viewer;
+var changeViewPoint, handler, loadCzml, loadJsonLine, options, scene, viewPoints, viewPointsArray, viewer;
 
 options = {
   baseLayerPicker: false,
@@ -84,3 +84,39 @@ handler.setInputAction((function(movement) {
     }), 1);
   }
 }), Cesium.ScreenSpaceEventType.LEFT_CLICK);
+
+viewPointsArray = [];
+
+viewPoints = function(_label, _lat, _lng, _heading, _pitch, _range) {
+  this.label = _label;
+  this.lat = _lat;
+  this.lng = _lng;
+  this.heading = _heading;
+  this.pitch = _pitch;
+  this.range = _range;
+};
+
+changeViewPoint = function(num, delay) {
+  var boundingSphere, center, headingPitchRange, newHeading, newLat, newLng, newPitch, newRange;
+  newLat = viewPointsArray[num].lat;
+  newLng = viewPointsArray[num].lng;
+  newHeading = Cesium.Math.toRadians(viewPointsArray[num].heading);
+  newPitch = Cesium.Math.toRadians(viewPointsArray[num].pitch);
+  newRange = viewPointsArray[num].range;
+  center = Cesium.Cartesian3.fromDegrees(newLng, newLat);
+  boundingSphere = new Cesium.BoundingSphere(center, newRange);
+  headingPitchRange = new Cesium.HeadingPitchRange(newHeading, newPitch, newRange);
+  viewer.camera.constrainedAxis = Cesium.Cartesian3.UNIT_Z;
+  viewer.camera.flyToBoundingSphere(boundingSphere, {
+    duration: delay,
+    offset: headingPitchRange
+  });
+};
+
+viewPointsArray[0] = new viewPoints('JAPAN', 33.284693, 130.266907, 0, -85, 3500);
+
+viewPointsArray[1] = new viewPoints('USA', 33.295993, 130.196842, 0, -89, 8000);
+
+viewPointsArray[2] = new viewPoints('INDIA', 33.260708, 130.230819, 0, -85, 2500);
+
+viewPointsArray[3] = new viewPoints('AFRICA', 33.251168, 130.119531, 0, -85, 96062);

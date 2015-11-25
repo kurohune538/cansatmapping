@@ -35,11 +35,12 @@
         </ul>
         <div id="pulldown">
           <form id="form" name="form" class="places">
-            <select id="select" name="select" onchange="createNetworkLink(this.form.select.value);" class="places">
+            <select id="select" name="select" onchange="changeViewPoint(this.form.select.value, 2);" class="places">
               <option>ViewPoints</option>
-              <option value="viewpoint_main">JAPAN</option>
-              <option value="viewpoint02">USAoption(value='viewpoint03') INDIA</option>
-              <option value="viewpoint04">AFRICA</option>
+              <option value="0">JAPAN</option>
+              <option value="1">USA</option>
+              <option value="2">INDIA</option>
+              <option value="3">AFRICA</option>
             </select>
           </form>
         </div>
