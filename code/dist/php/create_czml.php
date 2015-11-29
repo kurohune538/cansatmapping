@@ -126,8 +126,8 @@ if (!empty($postsArray)) {
 
         $polylinePosition = array(
             "positions" => [
-                139.455122,
-                35.425190,
+                139.7589766,
+                35.7108592,
                 10.0,
                 $post['lon'],
                 $post['lat'],
@@ -140,12 +140,13 @@ if (!empty($postsArray)) {
 
 //czml作成
 $json = json_encode($czmlArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-var_dump ($json);
+// var_dump ($json);
 file_put_contents('../czml/' . $czmlFileName . '.czml', $json);
 
 //ポリラインのJSON作成
 $polylineJSON = json_encode($polylineArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-file_put_contents('../czml/'.$polylineFileName.'.json', $polylineJSON);
+file_put_contents('../czml/polyline.json', $polylineJSON);
+var_dump($polylineJSON)
 
 
 ?>
