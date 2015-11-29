@@ -5,7 +5,8 @@
 
 # bower
 #
-code/dist/bower_components/
+code/dist/bower_components/cesiumjs/Cesium/*
+!Cesium_cansat.js
 
 # node.js
 #
