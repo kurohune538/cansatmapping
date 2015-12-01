@@ -8,6 +8,9 @@
 code/dist/bower_components/cesiumjs/Cesium/*
 !Cesium_cansat.js
 
+code/dist/bower_components/cesiumjs/CesiumUnminified
+code/dist/bower_components/cesiumjs/Documentation
+
 # node.js
 #
 code/node_modules/
