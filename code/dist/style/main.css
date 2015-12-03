@@ -1,0 +1,70 @@
+@import url(../bower_components/cesiumjs/Cesium/Widgets/widgets.css);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+html, body, #cesiumContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Audiowide', cursive;
+  min-width: 1060px; }
+
+.header {
+  position: absolute;
+  width: 100%;
+  min-width: 1060px;
+  height: 50px;
+  color: #1ebc95;
+  background-color: #000; }
+  .header .title {
+    margin-left: 25px;
+    float: left; }
+    .header .title a {
+      text-decoration: none;
+      font-size: 26px;
+      line-height: 50px;
+      color: #1ebc95; }
+  .header .nav {
+    text-align: right;
+    margin-right: 15px; }
+    .header .nav ul {
+      display: inline-block; }
+      .header .nav ul li {
+        float: left;
+        list-style: none;
+        margin-left: 25px; }
+        .header .nav ul li a {
+          text-decoration: none;
+          color: #1ebc95;
+          line-height: 50px;
+          font-size: 22px; }
+    .header .nav #pulldown {
+      display: inline-block;
+      margin-left: 15px;
+      line-height: 50px;
+      vertical-align: top; }
+      .header .nav #pulldown select {
+        width: 100px; }
+    .header .nav .geocode {
+      display: inline-block;
+      margin-left: 15px;
+      line-height: 50px;
+      vertical-align: top; }
+      .header .nav .geocode #inputtext {
+        width: 120px;
+        height: 25px;
+        padding: 0 5px;
+        font-size: 12px;
+        border: none;
+        background-color: #1ebc95;
+        color: #fff; }
+      .header .nav .geocode #inputtext::-webkit-input-placeholder {
+        color: #fff; }
+      .header .nav .geocode #inputtext:-ms-input-placeholder {
+        color: #fff; }
+      .header .nav .geocode #inputtext::-moz-placeholder {
+        color: #fff; }
+
+#cesiumContainer {
+  position: absolute;
+  top: 50px; }

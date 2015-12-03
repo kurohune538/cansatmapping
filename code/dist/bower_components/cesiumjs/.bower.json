@@ -1,0 +1,28 @@
+{
+  "name": "cesiumjs",
+  "version": "1.10.0",
+  "authors": [
+    "Cesium Contributors",
+    "Michael Lodge-Paolini <mikelp@agi.com>"
+  ],
+  "description": "WebGL virtual globe and map engine",
+  "main": [
+    "Cesium/Cesium.js",
+    "Cesium/Widgets/widgets.css"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "http://cesiumjs.org",
+  "ignore": [
+    "full_package"
+  ],
+  "_release": "1.10.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.10.0",
+    "commit": "25d7313c1821fa2e028be06260dd0e8684e8a455"
+  },
+  "_source": "git://github.com/mixxen/cesiumjs.git",
+  "_target": "~1.10.0",
+  "_originalSource": "cesiumjs",
+  "_direct": true
+}

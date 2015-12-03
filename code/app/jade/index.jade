@@ -1,17 +1,42 @@
 extends ./_layouts/_base
 
 block title
-  title cansatmapping
+	title Cansat Mapping
 block meta
-  meta(name="description", content="description")
+	meta(name="description", content="description")
 block link
-  // build:css({.tmp,app}) styles/main.min.css
-  link(rel='stylesheet' href='styles/main.css')
-  // endbuild
+	// build:css({.tmp,app}) style/main.min.css
+	link(rel='stylesheet' href='style/reset.css')
+	link(rel='stylesheet' href='style/main.css')
+	link(rel='stylesheet' href='style/balloon.css')
+	link(rel='SHORTCUT ICON' href='http://shinsai.mapping.jp/favicon.ico')
+	// endbuild
 
 block body
-  body
-    #cesiumContainer
-    script.
-      var viewer = new Cesium.Viewer('cesiumContainer');
+	body
+		#cesiumContainer
+		header.header
+			h1.title
+				a(href='') -CANSAT MAPPING-
+			.nav
+				ul
+					li
+						a UPLOAD
+					li
+						a(href='http://www.unisec.jp/flash/index-e.html', target='_blank') UNISEC
+					li 
+						a(href='https://docs.google.com/file/d/0B7uKeVg3VJZRc2ZCelNTbG1ra0k/edit', target='_blank') SITE POLICY
+				#pulldown
+					form#form.places(name='form')
+						select#select.places(name='select', onchange='changeViewPoint(this.form.select.value, 3);')
+							option ViewPoints
+							option(value='0') JAPAN
+							option(value='1') USA
+							option(value='2') INDIA
+							option(value='3') AFRICA
+				.geocode
+					form.textbox(action='javascript:geocode()')
+						input#inputtext.textbox(name='keywords2', value='', type='text', placeholder='City Search')
+		script(src="scripts/jquery-1.11.3.min.js")
+		script(src="scripts/main.js")
       

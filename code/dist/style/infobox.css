@@ -1,0 +1,43 @@
+/*@import url(https://fonts.googleapis.com/css?family=Audiowide);*/
+.cesium-infoBox-description {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Audiowide', cursive;*/ }
+
+iframe {
+  width: 100%;
+  height: auto;
+  min-height: 300px; }
+
+.commingsoon {
+  width: 100%;
+  height: auto; }
+
+.bottom {
+  padding: 20px; }
+
+.cansat_photo {
+  display: inline-block;
+  vertical-align: top;
+  width: 40%; }
+
+.data_box {
+  display: inline-block;
+  width: 50%;
+  padding: 0 5%; }
+
+.cansat_name {
+  font-size: 20px;
+  margin-top: 0px; }
+
+.mission_overview {
+  font-size: 14px;
+  margin-top: 10px; }
+
+.pdf {
+  font-size: 16px;
+  margin-top: 15px; }
+
+.unisec {
+  font-size: 8px;
+  margin-top: 10px; }
