@@ -42,16 +42,27 @@ loadJsonLine = function(fileName) {
   var jsonFile;
   jsonFile = fileName;
   $.getJSON(jsonFile, function(json) {
-    var i, lineColor, positions, positionsCartesian3;
+    var ghaterLine, i, lineColor, positionsCartesian3, underLine;
     for (i in json) {
-      positions = json[i].positions;
+      ghaterLine = json[i].ghaterLine;
       lineColor = Cesium.Color.fromBytes(30, 188, 149, 70);
-      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
+      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(ghaterLine);
       viewer.entities.add({
         name: 'line',
         polyline: {
           positions: positionsCartesian3,
           width: 2,
+          material: lineColor
+        }
+      });
+      underLine = json[i].underLine;
+      lineColor = Cesium.Color.fromBytes(255, 255, 255, 100);
+      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(underLine);
+      viewer.entities.add({
+        name: 'line2',
+        polyline: {
+          positions: positionsCartesian3,
+          width: 1,
           material: lineColor
         }
       });
