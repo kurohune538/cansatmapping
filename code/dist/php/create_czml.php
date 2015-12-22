@@ -85,7 +85,7 @@ if (!empty($postsArray)) {
         $description .= '<p class="cansat_name">'.$post['cansat_name'].'</p>';
         $description .= '<p class="mission_overview">'.$post['mission_overview'].'</p>';
         if ($post['pdf']) {
-            $description .= '<a class="pdf" href="http://cansat.archiving.jp/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
+            $description .= '<a class="pdf" href="http://ns.photon01.co.jp/~cansat/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
         }
         else {
             
