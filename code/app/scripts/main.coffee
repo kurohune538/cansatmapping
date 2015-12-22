@@ -124,4 +124,33 @@ viewPointsArray[1] = new viewPoints('USA', 34.9576309, -100.3646449, 0, -50, 600
 viewPointsArray[2] = new viewPoints('INDIA', 17.4346323, 78.8163729, 0, -45, 4000000)
 viewPointsArray[3] = new viewPoints('AFRICA', 4.3192223, 19.8916924, 0, -75, 8000000)
 
+# 地名から緯度経度検索
+geocode = ->
+  input = document.getElementById('inputtext').value
+  geocoder = new (google.maps.Geocoder)
+  geocoder.geocode {
+    'address': input
+    'language': 'ja'
+  }, (results, status) ->
+    if status == google.maps.GeocoderStatus.OK
+      lat = results[0].geometry.location.lat()
+      lon = results[0].geometry.location.lng()
+      changeSerchedViewPoint(lat, lon)
+    return
+  return
 
+# 検索結果の地点へ視点移動
+changeSerchedViewPoint = (lat, lon) ->
+  newLat = lat
+  newLng = lon
+  newHeading = Cesium.Math.toRadians(0)
+  newPitch = Cesium.Math.toRadians(-45)
+  newRange = 250000
+  center = Cesium.Cartesian3.fromDegrees(newLng, newLat)
+  boundingSphere = new (Cesium.BoundingSphere)(center, newRange)
+  headingPitchRange = new (Cesium.HeadingPitchRange)(newHeading, newPitch, newRange)
+  viewer.camera.constrainedAxis = Cesium.Cartesian3.UNIT_Z
+  viewer.camera.flyToBoundingSphere boundingSphere,
+    duration: 3
+    offset: headingPitchRange
+  return
