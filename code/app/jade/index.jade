@@ -21,7 +21,7 @@ block body
 			.nav
 				ul
 					li
-						a UPLOAD
+						a(href='http://ns.photon01.co.jp/~cansat/post.php', target='_blank') UPLOAD
 					li
 						a(href='http://www.unisec.jp/flash/index-e.html', target='_blank') UNISEC
 					li 
@@ -38,5 +38,6 @@ block body
 					form.textbox(action='javascript:geocode()')
 						input#inputtext.textbox(name='keywords2', value='', type='text', placeholder='City Search')
 		script(src="scripts/jquery-1.11.3.min.js")
+		script(src="http://maps.googleapis.com/maps/api/js?sensor=false&language=ja")
 		script(src="scripts/main.js")
       

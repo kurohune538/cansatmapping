@@ -1,4 +1,4 @@
-var changeViewPoint, handler, loadCzml, loadJsonLine, options, scene, viewPoints, viewPointsArray, viewer;
+var changeSerchedViewPoint, changeViewPoint, geocode, handler, loadCzml, loadJsonLine, options, scene, viewPoints, viewPointsArray, viewer;
 
 options = {
   baseLayerPicker: false,
@@ -42,16 +42,27 @@ loadJsonLine = function(fileName) {
   var jsonFile;
   jsonFile = fileName;
   $.getJSON(jsonFile, function(json) {
-    var i, lineColor, positions, positionsCartesian3;
+    var ghaterLine, i, lineColor, positionsCartesian3, underLine;
     for (i in json) {
-      positions = json[i].positions;
+      ghaterLine = json[i].ghaterLine;
       lineColor = Cesium.Color.fromBytes(30, 188, 149, 70);
-      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(positions);
+      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(ghaterLine);
       viewer.entities.add({
         name: 'line',
         polyline: {
           positions: positionsCartesian3,
           width: 2,
+          material: lineColor
+        }
+      });
+      underLine = json[i].underLine;
+      lineColor = Cesium.Color.fromBytes(255, 255, 255, 100);
+      positionsCartesian3 = Cesium.Cartesian3.fromDegreesArrayHeights(underLine);
+      viewer.entities.add({
+        name: 'line2',
+        polyline: {
+          positions: positionsCartesian3,
+          width: 1,
           material: lineColor
         }
       });
@@ -122,3 +133,37 @@ viewPointsArray[1] = new viewPoints('USA', 34.9576309, -100.3646449, 0, -50, 600
 viewPointsArray[2] = new viewPoints('INDIA', 17.4346323, 78.8163729, 0, -45, 4000000);
 
 viewPointsArray[3] = new viewPoints('AFRICA', 4.3192223, 19.8916924, 0, -75, 8000000);
+
+geocode = function() {
+  var geocoder, input;
+  input = document.getElementById('inputtext').value;
+  geocoder = new google.maps.Geocoder;
+  geocoder.geocode({
+    'address': input,
+    'language': 'ja'
+  }, function(results, status) {
+    var lat, lon;
+    if (status === google.maps.GeocoderStatus.OK) {
+      lat = results[0].geometry.location.lat();
+      lon = results[0].geometry.location.lng();
+      changeSerchedViewPoint(lat, lon);
+    }
+  });
+};
+
+changeSerchedViewPoint = function(lat, lon) {
+  var boundingSphere, center, headingPitchRange, newHeading, newLat, newLng, newPitch, newRange;
+  newLat = lat;
+  newLng = lon;
+  newHeading = Cesium.Math.toRadians(0);
+  newPitch = Cesium.Math.toRadians(-45);
+  newRange = 250000;
+  center = Cesium.Cartesian3.fromDegrees(newLng, newLat);
+  boundingSphere = new Cesium.BoundingSphere(center, newRange);
+  headingPitchRange = new Cesium.HeadingPitchRange(newHeading, newPitch, newRange);
+  viewer.camera.constrainedAxis = Cesium.Cartesian3.UNIT_Z;
+  viewer.camera.flyToBoundingSphere(boundingSphere, {
+    duration: 3,
+    offset: headingPitchRange
+  });
+};

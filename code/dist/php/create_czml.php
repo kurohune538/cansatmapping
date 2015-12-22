@@ -85,7 +85,7 @@ if (!empty($postsArray)) {
         $description .= '<p class="cansat_name">'.$post['cansat_name'].'</p>';
         $description .= '<p class="mission_overview">'.$post['mission_overview'].'</p>';
         if ($post['pdf']) {
-            $description .= '<a class="pdf" href="http://cansat.archiving.jp/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
+            $description .= '<a class="pdf" href="http://ns.photon01.co.jp/~cansat/assets/pdf/'.$post['pdf'].'" target="_blank">Abstract</a>';
         }
         else {
             
@@ -97,7 +97,7 @@ if (!empty($postsArray)) {
         $billboard = array(
             "horizontalOrigin" => "CENTER",
             "image" => '../assets/img/small/'. $post['team_photo'],
-            "scale" => 0.35,
+            "scale" => 0.5,
             "show" => "true",
             "verticalOrigin" => "CENTER"
         );
@@ -105,7 +105,7 @@ if (!empty($postsArray)) {
         $point = [
             $post['lon'],
             $post['lat'],
-            20000
+            50000
         ];
 
         $position = array(
@@ -124,14 +124,24 @@ if (!empty($postsArray)) {
         array_push($czmlArray, $placemarkArray);
 
 
+        // ポリライン作成
         $polylinePosition = array(
-            "positions" => [
-                139.7589766,
-                35.7108592,
-                10.0,
+            //UNISEC本部に集まる線
+            "ghaterLine" => [
+                "139.7589766",
+                "35.7108592",
+                "0.0",
                 $post['lon'],
                 $post['lat'],
-                19900]
+                "0"],
+            //アイコン下の線
+            "underLine" => [
+                $post['lon'],
+                $post['lat'],
+                "0.0",
+                $post['lon'],
+                $post['lat'],
+                "50000"]
             );
         //ポリラインを追加
         array_push($polylineArray, $polylinePosition);        
@@ -140,13 +150,13 @@ if (!empty($postsArray)) {
 
 //czml作成
 $json = json_encode($czmlArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
-// var_dump ($json);
+var_dump ($json);
 file_put_contents('../czml/' . $czmlFileName . '.czml', $json);
 
 //ポリラインのJSON作成
 $polylineJSON = json_encode($polylineArray,JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE|JSON_UNESCAPED_SLASHES);
 file_put_contents('../czml/polyline.json', $polylineJSON);
-var_dump($polylineJSON)
+// var_dump($polylineJSON)
 
 
 ?>
